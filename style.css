@@ -1,0 +1,76 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: url(./images/9.jpg);
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+	font-family: 'Catamaran', sans-serif;
+}
+.center{
+
+	text-align: center;
+}
+
+.row{
+	padding: 150px;
+	box-sizing: content-box;
+}
+h1 , p {
+	color: brown;
+}
+
+h2 > span {
+	color: white;
+
+}
+@media (max-width:768px){
+	h1{
+		background-color: #449d44;
+	}
+	h2{
+		background-color: #449d44;
+	}
+	p{
+		background-color: #449d44;
+	}
+}
+@media(min-width:768px){
+	h1 , p{
+		background-color:skyblue;
+		opacity: 0.8;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
